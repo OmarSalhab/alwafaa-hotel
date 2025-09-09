@@ -32,7 +32,7 @@ export default function HomePage() {
 				<div className="container mx-auto px-4 py-4 md:py-6">
 					<div className="flex items-center justify-between md:justify-between md:gap-16">
 						<div className="font-arabic-heading text-2xl md:text-4xl font-bold text-white drop-shadow-2xl [text-shadow:_2px_2px_4px_rgb(0_0_0_/_80%)]">
-							فندق الوفاء
+							
 						</div>
 
 						<button
@@ -118,9 +118,9 @@ export default function HomePage() {
 				className="relative h-screen flex items-center justify-center"
 			>
 				<div
-					className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+					className="absolute inset-0 bg-cover  bg-center bg-no-repeat"
 					style={{
-						backgroundImage: `url('/WhatsApp Image 2025-09-02 at 14.49.22_fe11cfef.jpg')`,
+						backgroundImage: `url('/WhatsApp Image 2025-09-02 at 14.49.21_68c3ea8d.jpg')`,
 					}}
 				>
 					<div className="absolute inset-0 bg-black/50"></div>
