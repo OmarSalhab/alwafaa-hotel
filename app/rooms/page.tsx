@@ -6,32 +6,6 @@ import { Badge } from "@/components/ui/badge"
 import { Wifi, Coffee, Tv, Bath, Menu, X } from "lucide-react"
 import Link from "next/link"
 import { useState } from "react"
-import type { Metadata } from "next"
-
-export const metadata: Metadata = {
-  title: "غرف فندق الوفاء - الزرقاء | غرف مفردة ومزوجة وعائلية بأسعار مناسبة",
-  description: "اكتشف غرف فندق الوفاء في الزرقاء. غرف مفردة 15 دينار، غرف مزوجة 20 دينار، غرف عائلية 25 دينار. إنترنت مجاني، خدمة 24 ساعة، موقف سيارات مجاني.",
-  keywords: [
-    "غرف فندق الوفاء",
-    "غرف مفردة الزرقاء",
-    "غرف مزوجة الزرقاء", 
-    "غرف عائلية الزرقاء",
-    "فندق اقتصادي الزرقاء",
-    "إقامة رخيصة الزرقاء",
-    "غرف 15 دينار",
-    "غرف 20 دينار",
-    "غرف 25 دينار",
-    "فندق الزرقاء الأردن",
-    "حجز فندق الزرقاء",
-    "إقامة مريحة الزرقاء"
-  ],
-  openGraph: {
-    title: "غرف فندق الوفاء - الزرقاء | غرف مفردة ومزوجة وعائلية",
-    description: "اكتشف غرف فندق الوفاء في الزرقاء. غرف مفردة 15 دينار، غرف مزوجة 20 دينار، غرف عائلية 25 دينار.",
-    url: 'https://alwafaahotel.com/rooms',
-    type: 'website',
-  },
-}
 
 const rooms = [
   {
