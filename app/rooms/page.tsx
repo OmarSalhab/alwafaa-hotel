@@ -6,6 +6,32 @@ import { Badge } from "@/components/ui/badge"
 import { Wifi, Coffee, Tv, Bath, Menu, X } from "lucide-react"
 import Link from "next/link"
 import { useState } from "react"
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "غرف فندق الوفاء - الزرقاء | غرف مفردة ومزوجة وعائلية بأسعار مناسبة",
+  description: "اكتشف غرف فندق الوفاء في الزرقاء. غرف مفردة 15 دينار، غرف مزوجة 20 دينار، غرف عائلية 25 دينار. إنترنت مجاني، خدمة 24 ساعة، موقف سيارات مجاني.",
+  keywords: [
+    "غرف فندق الوفاء",
+    "غرف مفردة الزرقاء",
+    "غرف مزوجة الزرقاء", 
+    "غرف عائلية الزرقاء",
+    "فندق اقتصادي الزرقاء",
+    "إقامة رخيصة الزرقاء",
+    "غرف 15 دينار",
+    "غرف 20 دينار",
+    "غرف 25 دينار",
+    "فندق الزرقاء الأردن",
+    "حجز فندق الزرقاء",
+    "إقامة مريحة الزرقاء"
+  ],
+  openGraph: {
+    title: "غرف فندق الوفاء - الزرقاء | غرف مفردة ومزوجة وعائلية",
+    description: "اكتشف غرف فندق الوفاء في الزرقاء. غرف مفردة 15 دينار، غرف مزوجة 20 دينار، غرف عائلية 25 دينار.",
+    url: 'https://alwafaahotel.com/rooms',
+    type: 'website',
+  },
+}
 
 const rooms = [
   {
@@ -226,16 +252,22 @@ export default function RoomsPage() {
         </div>
       </section>
 
-      {/* Footer */}
-      <footer className="bg-foreground text-background py-12">
-        <div className="container mx-auto px-4">
-          <div className="text-center">
-            <h3 className="font-arabic-heading text-3xl font-bold mb-4">فندق الوفاء</h3>
-            <p className="font-arabic-body text-lg mb-6">ضيافة أردنية أصيلة في قلب المملكة</p>
-            <p className="font-arabic-body text-sm opacity-75">© 2024 فندق الوفاء. جميع الحقوق محفوظة.</p>
-          </div>
-        </div>
-      </footer>
+     	{/* Footer */}
+			<footer className="bg-foreground text-background py-8 md:py-12">
+				<div className="container mx-auto px-4">
+					<div className="text-center">
+						<h3 className="font-arabic-heading text-2xl md:text-3xl font-bold mb-3 md:mb-4">
+							فندق الوفاء
+						</h3>
+						<p className="font-arabic-body text-base md:text-lg mb-4 md:mb-6">
+							ضيافة أردنية أصيلة في قلب المملكة
+						</p>
+						<p className="font-arabic-body text-xs md:text-sm opacity-75">
+							© 2024 solvenear. جميع الحقوق محفوظة.
+						</p>
+					</div>
+				</div>
+			</footer>
     </div>
   )
 }

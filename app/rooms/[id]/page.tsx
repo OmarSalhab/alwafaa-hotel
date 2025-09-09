@@ -260,16 +260,22 @@ export default function RoomDetailPage() {
         </div>
       </section>
 
-      {/* Footer */}
-      <footer className="bg-foreground text-background py-12">
-        <div className="container mx-auto px-4">
-          <div className="text-center">
-            <h3 className="font-arabic-heading text-3xl font-bold mb-4">فندق الوفاء</h3>
-            <p className="font-arabic-body text-lg mb-6">ضيافة أردنية أصيلة في قلب المملكة</p>
-            <p className="font-arabic-body text-sm opacity-75">© 2024 فندق الوفاء. جميع الحقوق محفوظة.</p>
-          </div>
-        </div>
-      </footer>
+      	{/* Footer */}
+			<footer className="bg-foreground text-background py-8 md:py-12">
+				<div className="container mx-auto px-4">
+					<div className="text-center">
+						<h3 className="font-arabic-heading text-2xl md:text-3xl font-bold mb-3 md:mb-4">
+							فندق الوفاء
+						</h3>
+						<p className="font-arabic-body text-base md:text-lg mb-4 md:mb-6">
+							ضيافة أردنية أصيلة في قلب المملكة
+						</p>
+						<p className="font-arabic-body text-xs md:text-sm opacity-75">
+							© 2024 solvenear. جميع الحقوق محفوظة.
+						</p>
+					</div>
+				</div>
+			</footer>
     </div>
   )
 }

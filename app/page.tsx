@@ -31,9 +31,7 @@ export default function HomePage() {
 			<nav className="fixed top-0 z-50 w-full md:px-40 px-9 border-b border-white/10">
 				<div className="container mx-auto px-4 py-4 md:py-6">
 					<div className="flex items-center justify-between md:justify-between md:gap-16">
-						<div className="font-arabic-heading text-2xl md:text-4xl font-bold text-white drop-shadow-2xl [text-shadow:_2px_2px_4px_rgb(0_0_0_/_80%)]">
-							
-						</div>
+						<div className="font-arabic-heading text-2xl md:text-4xl font-bold text-white drop-shadow-2xl [text-shadow:_2px_2px_4px_rgb(0_0_0_/_80%)]"></div>
 
 						<button
 							className="md:hidden text-white drop-shadow-lg"
@@ -120,7 +118,7 @@ export default function HomePage() {
 				<div
 					className="absolute inset-0 bg-cover  bg-center bg-no-repeat"
 					style={{
-						backgroundImage: `url('/WhatsApp Image 2025-09-02 at 14.49.21_68c3ea8d.jpg')`,
+						backgroundImage: `url('/WhatsApp Image 2025-09-09 at 18.30.17_6a64479b.jpg')`,
 					}}
 				>
 					<div className="absolute inset-0 bg-black/50"></div>
@@ -176,77 +174,6 @@ export default function HomePage() {
 				</div>
 			</section>
 
-			{/* Services Section */}
-			{/* <section className="py-12 md:py-20">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-12 md:mb-16">
-            <h2 className="font-arabic-heading text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4 md:mb-6">
-              خدماتنا المميزة
-            </h2>
-            <p className="font-arabic-body text-base md:text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-              نوفر مجموعة شاملة من الخدمات لضمان راحتكم وإقامة مميزة
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
-            <Card className="wp-card text-center p-4 md:p-6">
-              <CardHeader className="pb-3">
-                <div className="mx-auto w-12 h-12 md:w-16 md:h-16 bg-primary/10 rounded-full flex items-center justify-center mb-3 md:mb-4">
-                  <Wifi className="w-6 h-6 md:w-8 md:h-8 text-primary" />
-                </div>
-                <CardTitle className="font-arabic-heading text-lg md:text-xl">إنترنت مجاني</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <CardDescription className="font-arabic-body text-sm md:text-base">
-                  إنترنت عالي السرعة في جميع أنحاء الفندق
-                </CardDescription>
-              </CardContent>
-            </Card>
-
-            <Card className="wp-card text-center p-4 md:p-6">
-              <CardHeader className="pb-3">
-                <div className="mx-auto w-12 h-12 md:w-16 md:h-16 bg-primary/10 rounded-full flex items-center justify-center mb-3 md:mb-4">
-                  <Car className="w-6 h-6 md:w-8 md:h-8 text-primary" />
-                </div>
-                <CardTitle className="font-arabic-heading text-lg md:text-xl">موقف سيارات</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <CardDescription className="font-arabic-body text-sm md:text-base">
-                  موقف سيارات مجاني ومؤمن للنزلاء
-                </CardDescription>
-              </CardContent>
-            </Card>
-
-            <Card className="wp-card text-center p-4 md:p-6">
-              <CardHeader className="pb-3">
-                <div className="mx-auto w-12 h-12 md:w-16 md:h-16 bg-primary/10 rounded-full flex items-center justify-center mb-3 md:mb-4">
-                  <Utensils className="w-6 h-6 md:w-8 md:h-8 text-primary" />
-                </div>
-                <CardTitle className="font-arabic-heading text-lg md:text-xl">مطعم فاخر</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <CardDescription className="font-arabic-body text-sm md:text-base">
-                  مطعم يقدم أشهى الأطباق العربية والعالمية
-                </CardDescription>
-              </CardContent>
-            </Card>
-
-            <Card className="wp-card text-center p-4 md:p-6">
-              <CardHeader className="pb-3">
-                <div className="mx-auto w-12 h-12 md:w-16 md:h-16 bg-primary/10 rounded-full flex items-center justify-center mb-3 md:mb-4">
-                  <Coffee className="w-6 h-6 md:w-8 md:h-8 text-primary" />
-                </div>
-                <CardTitle className="font-arabic-heading text-lg md:text-xl">خدمة الغرف</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <CardDescription className="font-arabic-body text-sm md:text-base">
-                  خدمة الغرف على مدار 24 ساعة
-                </CardDescription>
-              </CardContent>
-            </Card>
-          </div>
-        </div>
-      </section> */}
 
 			{/* Rooms Preview */}
 			<section className="py-12 md:py-20 bg-muted/30">
@@ -361,26 +288,26 @@ export default function HomePage() {
 					</div>
 
 					<div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
-						<Card className="wp-card text-center p-6 md:p-8">
-							<CardHeader className="pb-4">
-								<div className="mx-auto w-12 h-12 md:w-16 md:h-16 bg-primary/10 rounded-full flex items-center justify-center mb-3 md:mb-4">
-									<Phone className="w-6 h-6 md:w-8 md:h-8 text-primary" />
-								</div>
-								<CardTitle className="font-arabic-heading text-lg md:text-xl">
-									الهاتف
-								</CardTitle>
-							</CardHeader>
-							<CardContent>
-								<a
-									href="tel:+962798306615"
-									className="font-arabic-body text-base md:text-lg"
-								>
-									+962798306615
-								</a>
-							</CardContent>
-						</Card>
+							<Card className="wp-card text-center p-6 md:p-8">
+						<a href="tel:+962798306615">
+								<CardHeader className="pb-4">
+									<div className="mx-auto w-12 h-12 md:w-16 md:h-16 bg-primary/10 rounded-full flex items-center justify-center mb-3 md:mb-4">
+										<Phone className="w-6 h-6 md:w-8 md:h-8 text-primary" />
+									</div>
+									<CardTitle className="font-arabic-heading text-lg md:text-xl">
+										الهاتف
+									</CardTitle>
+								</CardHeader>
+								<CardContent>
+									<p className="font-arabic-body text-base md:text-lg">
+										+962798306615
+									</p>
+								</CardContent>
+						</a>
+							</Card>{" "}
 
 						<Card className="wp-card text-center p-6 md:p-8">
+              <a href="mailto:fujeka2@gmail.com">
 							<CardHeader className="pb-4">
 								<div className="mx-auto w-12 h-12 md:w-16 md:h-16 bg-primary/10 rounded-full flex items-center justify-center mb-3 md:mb-4">
 									<Mail className="w-6 h-6 md:w-8 md:h-8 text-primary" />
@@ -390,17 +317,18 @@ export default function HomePage() {
 								</CardTitle>
 							</CardHeader>
 							<CardContent>
-								<a
-									href="mailto:fujeka2@gmail.com"
+								<p
+									
 									className="font-arabic-body text-base md:text-lg"
 								>
 									fujeka2@gmail.com
-								</a>
+								</p>
 							</CardContent>
+              </a>
 						</Card>
 
 						<Card className="wp-card text-center p-6 md:p-8">
-							<CardHeader className="pb-4">
+							<CardHeader className="pb-3">
 								<div className="mx-auto w-12 h-12 md:w-16 md:h-16 bg-primary/10 rounded-full flex items-center justify-center mb-3 md:mb-4">
 									<MapPin className="w-6 h-6 md:w-8 md:h-8 text-primary" />
 								</div>
@@ -410,10 +338,10 @@ export default function HomePage() {
 							</CardHeader>
 							<CardContent>
 								<p className="font-arabic-body text-base md:text-lg">
-									شارع سينما الحسين، خلف الروم والكاتوليك، داخل سوق الظاهر
+									الزرقاء، الأردن
 								</p>
 								<p className="font-arabic-body text-base md:text-lg">
-									الزرقاء، الأردن
+									شارع سينما الحسين، خلف الروم والكاثوليك، داخل سوق الظاهر
 								</p>
 							</CardContent>
 						</Card>

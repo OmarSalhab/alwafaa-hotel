@@ -1,0 +1,111 @@
+{
+  "@context": "https://schema.org",
+  "@type": "LodgingBusiness",
+  "name": "فندق الوفاء",
+  "alternateName": "Al Wafaa Hotel",
+  "description": "فندق اقتصادي في الزرقاء يقدم غرف مريحة بأسعار مناسبة مع خدمة 24 ساعة",
+  "url": "https://alwafaahotel.com",
+  "logo": "https://alwafaahotel.com/placeholder-logo.png",
+  "image": [
+    "https://alwafaahotel.com/WhatsApp Image 2025-09-09 at 18.30.17_6a64479b.jpg",
+    "https://alwafaahotel.com/WhatsApp Image 2025-09-02 at 14.49.21_68c3ea8d.jpg"
+  ],
+  "telephone": "+962798306615",
+  "email": "fujeka2@gmail.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "شارع سينما الحسين، خلف الروم والكاثوليك، داخل سوق الظاهر",
+    "addressLocality": "الزرقاء",
+    "addressCountry": "الأردن",
+    "addressRegion": "الزرقاء"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "32.0728",
+    "longitude": "36.0876"
+  },
+  "openingHours": "Mo-Su 00:00-23:59",
+  "priceRange": "15-25 JOD",
+  "amenityFeature": [
+    {
+      "@type": "LocationFeatureSpecification",
+      "name": "إنترنت مجاني",
+      "value": true
+    },
+    {
+      "@type": "LocationFeatureSpecification", 
+      "name": "موقف سيارات مجاني",
+      "value": true
+    },
+    {
+      "@type": "LocationFeatureSpecification",
+      "name": "خدمة الغرف",
+      "value": true
+    },
+    {
+      "@type": "LocationFeatureSpecification",
+      "name": "تكييف",
+      "value": true
+    }
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "غرف الفندق",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "LodgingReservation",
+          "name": "غرفة مفردة",
+          "description": "غرفة مريحة وبسيطة مع سرير مفرد ومرافق أساسية",
+          "occupancy": {
+            "@type": "QuantitativeValue",
+            "maxValue": 1
+          }
+        },
+        "price": "15",
+        "priceCurrency": "JOD",
+        "availability": "https://schema.org/InStock"
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "LodgingReservation",
+          "name": "غرفة مزوجة",
+          "description": "غرفة مناسبة للزوجين مع سرير مزدوج ومساحة أكبر",
+          "occupancy": {
+            "@type": "QuantitativeValue",
+            "maxValue": 2
+          }
+        },
+        "price": "20",
+        "priceCurrency": "JOD",
+        "availability": "https://schema.org/InStock"
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "LodgingReservation",
+          "name": "غرفة للعائلات",
+          "description": "غرفة واسعة مناسبة للعائلات مع سريرين ومساحة إضافية",
+          "occupancy": {
+            "@type": "QuantitativeValue",
+            "maxValue": 4
+          }
+        },
+        "price": "25",
+        "priceCurrency": "JOD",
+        "availability": "https://schema.org/InStock"
+      }
+    ]
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.2",
+    "reviewCount": "15"
+  },
+  "sameAs": [
+    "https://www.facebook.com/alwafaahotel",
+    "https://www.instagram.com/alwafaahotel"
+  ]
+}
