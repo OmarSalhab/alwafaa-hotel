@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "غرف فندق الوفاء - الزرقاء | غرف مفردة ومزوجة وعائلية",
     description: "اكتشف غرف فندق الوفاء في الزرقاء. غرف مفردة 15 دينار، غرف مزوجة 20 دينار، غرف عائلية 25 دينار.",
-    url: 'https://alwafaahotel.com/rooms',
+    url: 'https://alwafaahoteljo.com/rooms',
     type: 'website',
   },
 }

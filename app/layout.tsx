@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL('https://alwafaahotel.com'),
+  metadataBase: new URL('https://alwafaahoteljo.com'),
   alternates: {
     canonical: '/',
     languages: {
@@ -58,7 +58,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "فندق الوفاء - الزرقاء | غرف اقتصادية مريحة بأسعار مناسبة",
     description: "فندق الوفاء في الزرقاء - إقامة مريحة بأسعار منافسة. غرف مفردة ومزوجة وعائلية من 15-25 دينار. خدمة 24 ساعة، إنترنت مجاني، موقف سيارات.",
-    url: 'https://alwafaahotel.com',
+    url: 'https://alwafaahoteljo.com',
     siteName: 'فندق الوفاء',
     locale: 'ar_JO',
     type: 'website',
@@ -104,11 +104,11 @@ export default function RootLayout({
     "name": "فندق الوفاء",
     "alternateName": "Al Wafaa Hotel",
     "description": "فندق اقتصادي في الزرقاء يقدم غرف مريحة بأسعار مناسبة مع خدمة 24 ساعة",
-    "url": "https://alwafaahotel.com",
-    "logo": "https://alwafaahotel.com/placeholder-logo.png",
+    "url": "https://alwafaahoteljo.com",
+    "logo": "https://alwafaahoteljo.com/placeholder-logo.png",
     "image": [
-      "https://alwafaahotel.com/WhatsApp Image 2025-09-09 at 18.30.17_6a64479b.jpg",
-      "https://alwafaahotel.com/WhatsApp Image 2025-09-02 at 14.49.21_68c3ea8d.jpg"
+      "https://alwafaahoteljo.com/WhatsApp Image 2025-09-09 at 18.30.17_6a64479b.jpg",
+      "https://alwafaahoteljo.com/WhatsApp Image 2025-09-02 at 14.49.21_68c3ea8d.jpg"
     ],
     "telephone": "+962798306615",
     "email": "fujeka2@gmail.com",

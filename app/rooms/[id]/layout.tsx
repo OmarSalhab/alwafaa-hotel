@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "تفاصيل الغرفة - فندق الوفاء الزرقاء",
     description: "اكتشف تفاصيل غرف فندق الوفاء في الزرقاء. غرف مريحة مع أسعار مناسبة وخدمات متكاملة.",
-    url: 'https://alwafaahotel.com/rooms',
+    url: 'https://alwafaahoteljo.com/rooms',
     type: 'website',
   },
 }
