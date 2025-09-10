@@ -4,19 +4,25 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
+  /* Central brand tokens: change these to update the whole site */
+  --brand: oklch(0.75 0.11 231);
+  --brand-foreground: oklch(0.985 0 0);
+  --brand-secondary: oklch(0.97 0 0);
+  --brand-secondary-foreground: oklch(0.205 0 0);
+
   /* Updated color tokens to match hotel design brief */
   --background: oklch(1 0 0); /* Pure white */
-  --foreground: oklch(0.145 0 0); /* Dark gray */
-  --card: oklch(1 0 0); /* White cards */
+  --foreground: oklch(0.55 0.11 61); /* Dark gray */
+  --card: oklch(0.97 0 0); /* White cards */
   --card-foreground: oklch(0.145 0 0); /* Dark gray for card text */
   --popover: oklch(1 0 0); /* White */
   --popover-foreground: oklch(0.145 0 0); /* Dark gray */
-  --primary: oklch(0.205 0 0); /* Dark primary */
-  --primary-foreground: oklch(0.985 0 0); /* White text on primary */
-  --secondary: oklch(0.97 0 0); /* Light secondary */
-  --secondary-foreground: oklch(0.205 0 0); /* Dark text on secondary */
+  --primary: var(--brand); /* Unified primary */
+  --primary-foreground: var(--brand-foreground); /* Unified primary fg */
+  --secondary: var(--brand-secondary); /* Unified secondary */
+  --secondary-foreground: var(--brand-secondary-foreground); /* Unified secondary fg */
   --muted: oklch(0.97 0 0); /* Light gray */
-  --muted-foreground: oklch(0.556 0 0); /* Medium gray */
+  --muted-foreground: oklch(0.22 0 0); /* Darker gray for paragraph text */
   --accent: oklch(0.97 0 0); /* Light accent */
   --accent-foreground: oklch(0.205 0 0); /* Dark text on accent */
   --destructive: oklch(0.577 0.245 27.325);
@@ -41,18 +47,24 @@
 }
 
 .dark {
+  /* Optional overrides for brand tokens in dark mode */
+  --brand: oklch(0.985 0 0);
+  --brand-foreground: oklch(0.205 0 0);
+  --brand-secondary: oklch(0.269 0 0);
+  --brand-secondary-foreground: oklch(0.985 0 0);
+
   --background: oklch(0.145 0 0);
   --foreground: oklch(0.985 0 0);
   --card: oklch(0.145 0 0);
   --card-foreground: oklch(0.985 0 0);
   --popover: oklch(0.145 0 0);
   --popover-foreground: oklch(0.985 0 0);
-  --primary: oklch(0.985 0 0);
-  --primary-foreground: oklch(0.205 0 0);
-  --secondary: oklch(0.269 0 0);
-  --secondary-foreground: oklch(0.985 0 0);
+  --primary: var(--brand);
+  --primary-foreground: var(--brand-foreground);
+  --secondary: var(--brand-secondary);
+  --secondary-foreground: var(--brand-secondary-foreground);
   --muted: oklch(0.269 0 0);
-  --muted-foreground: oklch(0.708 0 0);
+  --muted-foreground: oklch(0.78 0 0);
   --accent: oklch(0.269 0 0);
   --accent-foreground: oklch(0.985 0 0);
   --destructive: oklch(0.396 0.141 25.723);

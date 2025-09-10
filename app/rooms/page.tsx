@@ -48,12 +48,12 @@ export default function RoomsPage() {
       <nav className="fixed top-0 z-50 w-full md:px-40 px-9 border-b border-white/10">
         <div className="container mx-auto px-4 py-4 md:py-6">
           <div className="flex items-center justify-between md:justify-between md:gap-16">
-            <div className="font-arabic-heading text-2xl md:text-4xl font-bold text-black drop-shadow-2xl ">
+            <div className="font-arabic-heading text-2xl md:text-4xl font-bold text-primary drop-shadow-2xl ">
               فندق الوفاء
             </div>
 
             <button
-              className="md:hidden text-black drop-shadow-lg"
+              className="md:hidden text-foreground drop-shadow-lg"
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             >
               {isMobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
@@ -89,7 +89,7 @@ export default function RoomsPage() {
           </div>
 
           {isMobileMenuOpen && (
-            <div className="md:hidden mt-4 bg-black/90 backdrop-blur-md rounded-lg p-4">
+            <div className="md:hidden mt-4 bg-foreground backdrop-blur-md rounded-lg p-4">
               <div className="flex flex-col space-y-4">
                 <Link
                   href="/"
