@@ -272,7 +272,7 @@ export default function HomePage() {
 							<div
 								className="h-48 md:h-64 bg-cover bg-center"
 								style={{
-									backgroundImage: `url('/WhatsApp Image 2025-09-10 at 16.12.14_27029908.jpg')`,
+									backgroundImage: `url('/WhatsApp Image 2025-09-10 at 16.12.14_270299081.jpg')`,
 								}}
 							></div>
 							<CardHeader className="pb-3">
