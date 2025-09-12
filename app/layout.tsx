@@ -105,7 +105,7 @@ export default function RootLayout({
     "alternateName": "Al Wafaa Hotel",
     "description": "فندق اقتصادي في الزرقاء يقدم غرف مريحة بأسعار مناسبة مع خدمة 24 ساعة",
     "url": "https://alwafaahoteljo.com",
-    "logo": "https://alwafaahoteljo.com/placeholder-logo.png",
+    "logo": "/WhatsApp Image 2025-09-09 at 18.30.17_6a64479b.jpg",
     "image": [
       "https://alwafaahoteljo.com/WhatsApp Image 2025-09-09 at 18.30.17_6a64479b.jpg",
       "https://alwafaahoteljo.com/WhatsApp Image 2025-09-02 at 14.49.21_68c3ea8d.jpg"

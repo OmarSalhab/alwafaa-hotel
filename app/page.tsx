@@ -15,7 +15,6 @@ import {
 	Wifi,
 	Car,
 	Coffee,
-	Utensils,
 	Menu,
 	X,
 	Plane,

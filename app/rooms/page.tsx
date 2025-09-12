@@ -1,9 +1,9 @@
 "use client";
 
-import { Button } from "@/components/ui/button"
+
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { Wifi, Coffee, Tv, Bath, Menu, X } from "lucide-react"
+import { Wifi, Coffee, Tv, Menu, X, Snowflake } from "lucide-react"
 import Link from "next/link"
 import { useState } from "react"
 
@@ -209,9 +209,9 @@ export default function RoomsPage() {
 
             <div className="text-center">
               <div className="mx-auto w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-4">
-                <Bath className="w-8 h-8 text-primary" />
+                <Snowflake className="w-8 h-8 text-primary" />
               </div>
-              <h3 className="font-arabic-heading text-lg font-semibold mb-2">حمام خاص</h3>
+              <h3 className="font-arabic-heading text-lg font-semibold mb-2">ثلاجة صغيرة</h3>
               <p className="font-arabic-body text-sm text-muted-foreground">مع أدوات أساسية</p>
             </div>
 
